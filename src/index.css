@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Newsreader', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+    /* Refined Warm Editorial Palette */
+    --color-slate-dark: #1A333E;
+    --color-slate-medium: #2C4D5C;
+    --color-slate-light: #486E7F;
+    --color-sage-dark: #587265;
+    --color-sage-soft: #7C9B8B;
+    --color-sand-bg: #FAF8F5;
+    --color-sand-card: #F3EFEA;
+    --color-border-subtle: #E8E3DA;
+    --color-ink-main: #1C2124;
+    --color-ink-muted: #4B5357;
+    --color-ink-light: #737D82;
+    --color-rose-accent: #B87682;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink-main);
+    background-color: var(--color-sand-bg);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4CFC6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B5AFA4;
+}
+
+/* Smooth Focus Ring for Accessibility */
+*:focus-visible {
+  outline: 2px solid #1A333E;
+  outline-offset: 3px;
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

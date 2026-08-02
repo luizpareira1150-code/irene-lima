@@ -1,0 +1,6 @@
+{
+  "name": "Irene Lima | Psicologia Clínica e Neuropsicologia",
+  "description": "Site profissional da psicóloga Irene Lima (CRP 05/48544). Psicoterapia TCC para ansiedade, TDAH em adolescentes e adultos, e avaliação neuropsicológica no Rio de Janeiro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
