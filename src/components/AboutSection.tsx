@@ -11,10 +11,10 @@ export const AboutSection: React.FC = () => {
       {/* Image Frame */}
       <div className="bg-[#F3EFEA] p-3 rounded-3xl border border-[#E8E3DA] shadow-sm">
         <ImageWithFallback
-          src="/images/irene-sobre.webp"
+          src="/images/irene-lima-sobre-espelhada.jpeg"
           alt="Irene Lima - Psicóloga CRP 05/48544"
           fallbackType="portrait"
-          className="w-full aspect-[4/5] object-cover rounded-2xl"
+          className="w-full aspect-[4/5] object-cover object-[center_12%] rounded-2xl"
         />
       </div>
     </div>

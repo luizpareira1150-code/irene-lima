@@ -67,10 +67,10 @@ export const Hero: React.FC = () => {
               {/* Image Box */}
               <div className="relative bg-white p-2.5 rounded-3xl border border-[#E8E3DA] shadow-xl overflow-hidden">
                 <ImageWithFallback
-                  src="/images/irene-lima-psicologa.webp"
+                  src="/images/irene-lima-hero.jpeg"
                   alt="Irene Lima - Psicóloga CRP 05/48544"
                   fallbackType="portrait"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-[4/5] object-cover object-[center_28%] rounded-2xl"
                 />
               </div>
 
