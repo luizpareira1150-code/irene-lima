@@ -45,7 +45,7 @@ export const AboutSection: React.FC = () => {
 
             <div className="space-y-4 text-sm sm:text-base text-[#4B5357] leading-relaxed">
               <p>
-                Sou <strong className="text-[#1A333E]">Irene Lima ({professionalData.crp})</strong>, psicóloga clínica com atuação focada em Terapia Cognitivo-Comportamental (TCC) e aperfeiçoamento constante em Neuropsicologia.
+                Sou <strong className="text-[#1A333E]">Irene Lima ({professionalData.crp})</strong>, psicóloga clínica com atuação focada em Terapia Cognitivo-Comportamental (TCC) e pós-graduada em Neuropsicologia.
               </p>
               <p>
                 Meu trabalho é dedicado ao atendimento de <strong className="text-[#1A333E]">adolescentes e adultos</strong> que buscam compreender e manejar os desafios da ansiedade, inquietação, TDAH ou que necessitam de um processo detalhado de avaliação neuropsicológica.
